@@ -1,3 +1,5 @@
 import streamlit as st
 
-st.write("Tema ativo:", st.runtime.scriptrunner.get_script_run_ctx().theme)
+st.title("Teste de Tema 💡")
+st.button("Botão de Teste")
+st.sidebar.info("Sidebar de teste")
