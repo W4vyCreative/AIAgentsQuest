@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title("AI Agents APP")
+st.title("AI Agents Quest")
 st.button("Press here")
 st.sidebar.info("This is a sidebar")
