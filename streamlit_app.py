@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title("Teste de Tema 💡")
-st.button("Botão de Teste")
-st.sidebar.info("Sidebar de teste")
+st.title("AI Agents APP")
+st.button("Press here")
+st.sidebar("This is a sidebar")
