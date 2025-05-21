@@ -9,7 +9,7 @@ st.write("Welcome! This APP will guide you on building your own **AI agents** " 
 st.text_input("Insert your name here:", key="username")
 
 st.button("Press here")
-    if st.button("Press here") = True
+    if st.button("Press here") 
         st.write("Welcome,", st.session_state.username + "!")
     else:
         st.button("Press here")
