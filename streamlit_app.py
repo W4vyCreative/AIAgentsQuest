@@ -11,6 +11,6 @@ name = st.text_input
 
 st.button("Press here")
 def button(name):
-return ("Welcome, " + name + "!")
+    return ("Welcome, " + name + "!")
 
 st.sidebar.info("This is a sidebar")
