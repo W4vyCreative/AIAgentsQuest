@@ -7,7 +7,6 @@ st.title("AI Agents Quest: Learning how to create your own AI agents in a gamifi
 st.write("Welcome! This APP will guide you on building your own **AI agents** " "utilizing interactive challenges. Let's go!")
 
 st.text_input("Insert your name here:", key="username")
-name = 
 
 st.button("Press here")
     if st.button("Press here") = True: 
