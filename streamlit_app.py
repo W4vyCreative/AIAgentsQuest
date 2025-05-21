@@ -11,6 +11,8 @@ name = st.text_input
 
 st.button("Press here")
 def button(name):
-    return st.write("Welcome, " + name + "!")
+    if st.button(pressed): 
+        st.write("Welcome, " + name + "!")
+    else:
 
 st.sidebar.info("This is a sidebar")
