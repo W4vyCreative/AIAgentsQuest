@@ -17,4 +17,3 @@ if st.button("Press here"):
     st.success(f"Welcome, {username}! Get ready for your AI tasks!🎮")
     username = st.session_state.username
 
-
