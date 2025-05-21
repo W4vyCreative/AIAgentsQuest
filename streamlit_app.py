@@ -6,7 +6,7 @@ st.set_page_config(page_title="Gamified AI Agent", page_icon="🤖", layout="wid
 st.title("AI Agents Quest: Learning how to create your own AI agents in a gamified way!")
 st.write("Welcome! This APP will guide you on building your own **AI agents** utilizing interactive tasks. Are you ready?")
 
-st.sidebar.info("This is a sidebar")
+st.sidebar.success("👆 select a page above to navigate")
 
 st.divider()
 
