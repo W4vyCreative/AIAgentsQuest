@@ -13,6 +13,6 @@ st.divider()
 st.text_input("Insert your name here:", key="username")
 username = st.session_state.username
 
-if st.button("Press here") = True:
+if st.button("Press here") == True:
     (f"Welcome, {username}!")
     
