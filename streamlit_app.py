@@ -4,12 +4,16 @@ hf_token = st.secrets["HF_TOKEN"]
 
 st.set_page_config(page_title="Gamified AI Agent", page_icon="🤖", layout="wide")
 st.title("AI Agents Quest: Learning how to create your own AI agents in a gamified way!")
-st.write("Welcome! This APP will guide you on building your own **AI agents** " "utilizing interactive challenges. Let's go!")
+st.write("Welcome! This APP will guide you on building your own **AI agents** " "utilizing interactive tasks. Are you ready?")
+
+st.sidebar.info("This is a sidebar")
+
+st.divider()
 
 st.text_input("Insert your name here:", key="username")
+username = st.session_state.username
 
 if st.button("Press here"):
-    st.write("Welcome,", st.session_state.username + "!")
-else:
-    print("Press here")
-st.sidebar.info("This is a sidebar")
+    username = st.session_state.username
+    st.sucess(f"Welcome, {username}!")
+    
