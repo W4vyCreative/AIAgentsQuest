@@ -7,4 +7,4 @@ st.title("AI Agents Quest: Learning how to create your own AI agents in a gamifi
 st.write("Welcome! This APP will guide you on building your own **AI** agents " "utilizing interactive challenges. Let's go!")
 st.button("Press here")
 
-st.sidebar.info("This is a sidebar
+st.sidebar.info("This is a sidebar")
