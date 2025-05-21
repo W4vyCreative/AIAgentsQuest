@@ -10,6 +10,7 @@ st.text_input("Insert your name here: ")
 name = st.text_input
 
 st.button("Press here")
+def button(name):
 return ("Welcome, " + name + "!")
 
 st.sidebar.info("This is a sidebar")
