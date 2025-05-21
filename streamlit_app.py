@@ -14,7 +14,7 @@ st.text_input("Insert your name here:", key="username")
 username = st.session_state.username
 
 if st.button("Press here"):
-    st.success(f"Welcome, {username}!")
+    st.success(f"Welcome, {username}! Get ready for your AI tasks!🎮")
     username = st.session_state.username
 
 
