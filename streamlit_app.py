@@ -10,7 +10,7 @@ st.text_input("Insert your name here:", key="username")
 
 st.button("Press here")
     if st.button("Press here") = True: 
-        st.write("Welcome,", st.session_state.username + "!")
+st.write("Welcome,", st.session_state.username + "!")
     else:
         st.button("Press here")
 st.sidebar.info("This is a sidebar")
