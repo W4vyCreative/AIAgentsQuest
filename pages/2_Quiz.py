@@ -5,7 +5,7 @@ if "xp" not in st.session_state:
     st.session_state["xp"] = 0
 
 st.title("🤔 Quiz")
-st.subtitle("Let's test your knowledge!")
+st.write("Let's test your knowledge!")
 
 st.write("Practice your knowledge answering the question: ")
 question = "**QUESTION:** Which programming language are we using to build this app?"
