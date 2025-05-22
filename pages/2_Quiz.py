@@ -16,6 +16,6 @@ choice = st.radio(question, choices)
 if st.button("confirm answer"):
    if choice == right_choice:
       st.session_state["xp"] += 10
-      st.success(f"✅Congratulations, you are right! +10xp.(total XP = {st.session_state ['xp']}")
+      st.success(f"✅Congratulations, you are right! +10xp. (total XP = {st.session_state ['xp']})")
 else:
    st.error("❌Oh, you are wrong 😔... Try again!")
