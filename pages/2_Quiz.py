@@ -1,7 +1,7 @@
 import streamlit as st
 
 if "xp" not in st.session_state:
-  session_state["xp"] = 0
+  st.session_state["xp"] = 0
 
 st.title("🤔 Quiz")
 st.write("Let's test your knowledge!: ")
