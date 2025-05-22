@@ -7,7 +7,7 @@ if "xp" not in st.session_state:
 st.title("🤔 Quiz")
 st.write("Let's test your knowledge!: ")
 
-st.write("Practice your knowldege answering the question: ")
+st.write("Practice your knowledge answering the question: ")
 question = "**QUESTION:** Which programming language are we using to build this app?"
 choices = ["A) Java", "B) Python", "C) CU"]
 right_choice = "B) Python"
