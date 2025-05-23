@@ -14,7 +14,6 @@ right_choice = "B) Python"
 
 choice = st.radio(question, choices)
 
-
 if st.button("confirm answer"):
    if choice == right_choice:
       st.session_state["xp"] += 10
