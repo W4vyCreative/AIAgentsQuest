@@ -1,6 +1,7 @@
 import streamlit as st
 
-st.session_state = ["xp"]
+if "xp" not in st.session_state:
+    st.session_state["xp"] = 0
 
 hf_token = st.secrets["HF_TOKEN"]
 
