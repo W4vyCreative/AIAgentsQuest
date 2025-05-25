@@ -3,7 +3,7 @@ import streamlit as st
 if "xp" not in st.session_state:
     st.session_state["xp"] = 0
 if "username" not in st.session_state:
-    st.session_stateI["username"] = ""
+    st.session_state["username"] = ""
 
 hf_token = st.secrets.get("HF_TOKEN", None)
 
