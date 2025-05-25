@@ -3,10 +3,9 @@ import streamlit as st
 for key, default in {
     "xp": 0,
     "username": "",
-}items():
+}.items():
     if key not in st.session_state:
-        st.session_state["key"] = default
-
+        st.session_state[key] = default
 
 if "xp" not in st.session_state:
     st.session_state["xp"] = 0
