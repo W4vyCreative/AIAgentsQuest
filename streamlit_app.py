@@ -1,7 +1,6 @@
 import streamlit as st
 hf_token = st.secrets.get("HF_TOKEN", None)
 
-
 for key, default in {
     "xp": 0,
     "username": "",
