@@ -3,12 +3,15 @@ import streamlit as st
 if "xp" not in st.session_state:
     st.session_state["xp"] = 0
 
+if "username" not in st.session_state:
+    st.session_state["username"] = ""
+
 hf_token = st.secrets.get("HF_TOKEN", None)
 
 st.set_page_config(page_title="Gamified AI Agent", page_icon="🤖", layout="wide")
 st.title("AI Agents Quest: Learning how to create your own AI agents in a gamified way!")
 st.write("Welcome! This APP will guide you on building your own **AI agents** utilizing interactive tasks. Are you ready?")
-st.write(f"Current XP = **{st.session_state['xp']}**")
+st.write(f"Current XP = **{st.session_state. get('xp', 0)}**")
 
 st.sidebar.success("👆 select a page above to navigate")
 
