@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.session_state = ["x"]
+st.session_state = ["xp"]
 
 hf_token = st.secrets["HF_TOKEN"]
 
