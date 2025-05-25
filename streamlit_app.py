@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.session_state = ["x"]
+
 hf_token = st.secrets["HF_TOKEN"]
 
 st.set_page_config(page_title="Gamified AI Agent", page_icon="🤖", layout="wide")
