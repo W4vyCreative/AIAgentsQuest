@@ -3,7 +3,7 @@ import streamlit as st
 if "xp" not in st.session_state:
     st.session_state["xp"] = 0
 
-hf_token = st.secrets["HF_TOKEN"]
+hf_token = st.secrets.get("HF_TOKEN", None)
 
 st.set_page_config(page_title="Gamified AI Agent", page_icon="🤖", layout="wide")
 st.title("AI Agents Quest: Learning how to create your own AI agents in a gamified way!")
